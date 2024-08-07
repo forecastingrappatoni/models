@@ -1,0 +1,355 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "title": "Is Iran Capable To Do Damage?",
+      "x": 909,
+      "y": 349,
+      "values": [
+        "1",
+        "0"
+      ],
+      "tbl": {
+        "10": 0.5,
+        "11": 0.5
+      },
+      "sampled": false
+    },
+    {
+      "id": 2,
+      "title": "Is Iran Willing To Do Damage?",
+      "x": 850,
+      "y": 488,
+      "values": [
+        "1",
+        "0"
+      ],
+      "tbl": {
+        "10": {
+          "20": 1,
+          "21": 0
+        },
+        "11": {
+          "20": 0.1,
+          "21": 0.9
+        }
+      },
+      "sampled": false
+    },
+    {
+      "id": 3,
+      "title": "Will Iran Use Ballistic Missiles?",
+      "x": 1088,
+      "y": 530,
+      "values": [
+        "1",
+        "0"
+      ],
+      "tbl": {
+        "20": {
+          "30": 0.99,
+          "31": 0.01
+        },
+        "21": {
+          "30": 0.8,
+          "31": 0.2
+        }
+      },
+      "sampled": false
+    },
+    {
+      "id": 5,
+      "title": "Will >=5 Israeli Deaths Be Caused By Weapons Fired By Iran Within 24 Hours?",
+      "x": 1026,
+      "y": 815,
+      "values": [
+        "1",
+        "0"
+      ],
+      "tbl": {
+        "30": {
+          "90": {
+            "50": 0.9,
+            "51": 0.1
+          },
+          "91": {
+            "50": 0.45,
+            "51": 0.55
+          }
+        },
+        "31": {
+          "90": {
+            "50": 0.35,
+            "51": 0.65
+          },
+          "91": {
+            "50": 0.15,
+            "51": 0.85
+          }
+        }
+      },
+      "sampled": false
+    },
+    {
+      "id": 9,
+      "title": "Further Escalation",
+      "x": 1269.3721923828125,
+      "y": 678.0227661132812,
+      "values": [
+        "1",
+        "0"
+      ],
+      "tbl": {
+        "30": {
+          "90": 0.7,
+          "91": 0.3
+        },
+        "31": {
+          "90": 0.9,
+          "91": 0.1
+        }
+      },
+      "sampled": false
+    }
+  ],
+  "edges": [
+    {
+      "source": {
+        "id": 1,
+        "title": "Is Iran Capable To Do Damage?",
+        "x": 909,
+        "y": 349,
+        "values": [
+          "1",
+          "0"
+        ],
+        "tbl": {
+          "10": 0.5,
+          "11": 0.5
+        },
+        "sampled": false
+      },
+      "target": {
+        "id": 2,
+        "title": "Is Iran Willing To Do Damage?",
+        "x": 850,
+        "y": 488,
+        "values": [
+          "1",
+          "0"
+        ],
+        "tbl": {
+          "10": {
+            "20": 1,
+            "21": 0
+          },
+          "11": {
+            "20": 0.1,
+            "21": 0.9
+          }
+        },
+        "sampled": false
+      }
+    },
+    {
+      "source": {
+        "id": 2,
+        "title": "Is Iran Willing To Do Damage?",
+        "x": 850,
+        "y": 488,
+        "values": [
+          "1",
+          "0"
+        ],
+        "tbl": {
+          "10": {
+            "20": 1,
+            "21": 0
+          },
+          "11": {
+            "20": 0.1,
+            "21": 0.9
+          }
+        },
+        "sampled": false
+      },
+      "target": {
+        "id": 3,
+        "title": "Will Iran Use Ballistic Missiles?",
+        "x": 1088,
+        "y": 530,
+        "values": [
+          "1",
+          "0"
+        ],
+        "tbl": {
+          "20": {
+            "30": 0.99,
+            "31": 0.01
+          },
+          "21": {
+            "30": 0.8,
+            "31": 0.2
+          }
+        },
+        "sampled": false
+      }
+    },
+    {
+      "source": {
+        "id": 9,
+        "title": "Further Escalation",
+        "x": 1269.3721923828125,
+        "y": 678.0227661132812,
+        "values": [
+          "1",
+          "0"
+        ],
+        "tbl": {
+          "30": {
+            "90": 0.7,
+            "91": 0.3
+          },
+          "31": {
+            "90": 0.9,
+            "91": 0.1
+          }
+        },
+        "sampled": false
+      },
+      "target": {
+        "id": 5,
+        "title": "Will >=5 Israeli Deaths Be Caused By Weapons Fired By Iran Within 24 Hours?",
+        "x": 1026,
+        "y": 815,
+        "values": [
+          "1",
+          "0"
+        ],
+        "tbl": {
+          "30": {
+            "90": {
+              "50": 0.9,
+              "51": 0.1
+            },
+            "91": {
+              "50": 0.45,
+              "51": 0.55
+            }
+          },
+          "31": {
+            "90": {
+              "50": 0.35,
+              "51": 0.65
+            },
+            "91": {
+              "50": 0.15,
+              "51": 0.85
+            }
+          }
+        },
+        "sampled": false
+      }
+    },
+    {
+      "source": {
+        "id": 3,
+        "title": "Will Iran Use Ballistic Missiles?",
+        "x": 1088,
+        "y": 530,
+        "values": [
+          "1",
+          "0"
+        ],
+        "tbl": {
+          "20": {
+            "30": 0.99,
+            "31": 0.01
+          },
+          "21": {
+            "30": 0.8,
+            "31": 0.2
+          }
+        },
+        "sampled": false
+      },
+      "target": {
+        "id": 9,
+        "title": "Further Escalation",
+        "x": 1269.3721923828125,
+        "y": 678.0227661132812,
+        "values": [
+          "1",
+          "0"
+        ],
+        "tbl": {
+          "30": {
+            "90": 0.7,
+            "91": 0.3
+          },
+          "31": {
+            "90": 0.9,
+            "91": 0.1
+          }
+        },
+        "sampled": false
+      }
+    },
+    {
+      "source": {
+        "id": 3,
+        "title": "Will Iran Use Ballistic Missiles?",
+        "x": 1088,
+        "y": 530,
+        "values": [
+          "1",
+          "0"
+        ],
+        "tbl": {
+          "20": {
+            "30": 0.99,
+            "31": 0.01
+          },
+          "21": {
+            "30": 0.8,
+            "31": 0.2
+          }
+        },
+        "sampled": false
+      },
+      "target": {
+        "id": 5,
+        "title": "Will >=5 Israeli Deaths Be Caused By Weapons Fired By Iran Within 24 Hours?",
+        "x": 1026,
+        "y": 815,
+        "values": [
+          "1",
+          "0"
+        ],
+        "tbl": {
+          "30": {
+            "90": {
+              "50": 0.9,
+              "51": 0.1
+            },
+            "91": {
+              "50": 0.45,
+              "51": 0.55
+            }
+          },
+          "31": {
+            "90": {
+              "50": 0.35,
+              "51": 0.65
+            },
+            "91": {
+              "50": 0.15,
+              "51": 0.85
+            }
+          }
+        },
+        "sampled": false
+      }
+    }
+  ]
+}
