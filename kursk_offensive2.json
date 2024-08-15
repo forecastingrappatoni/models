@@ -1,0 +1,737 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "title": "Ukrainian Main Direction Of Attack",
+      "x": 234,
+      "y": 127.33332824707031,
+      "values": [
+        "l'gov",
+        "rylsk",
+        "belgorod district border"
+      ],
+      "tbl": {
+        "1l'gov": 0.4,
+        "1rylsk": 0.3,
+        "1belgorod district border": 0.3
+      },
+      "sampled": false
+    },
+    {
+      "id": 2,
+      "title": "Second Offensive In Bryansk",
+      "x": 443.1777648925781,
+      "y": 163.8380889892578,
+      "values": [
+        "1",
+        "0"
+      ],
+      "tbl": {
+        "50": {
+          "20": 0.99,
+          "21": 0.01
+        },
+        "51": {
+          "20": 0.95,
+          "21": 0.05
+        }
+      },
+      "sampled": false
+    },
+    {
+      "id": 4,
+      "title": "Second Prong In Belgorod",
+      "x": 129,
+      "y": 231.33331298828125,
+      "values": [
+        "1",
+        "0"
+      ],
+      "tbl": {
+        "1l'gov": {
+          "40": 0.95,
+          "41": 0.05
+        },
+        "1rylsk": {
+          "40": 0.95,
+          "41": 0.05
+        },
+        "1belgorod district border": {
+          "40": 0.4,
+          "41": 0.6
+        }
+      },
+      "sampled": false
+    },
+    {
+      "id": 5,
+      "title": ">5 Miles In Kursk",
+      "x": 277.8872375488281,
+      "y": 203.58253479003906,
+      "values": [
+        "1",
+        "0"
+      ],
+      "tbl": {
+        "1l'gov": {
+          "50": 0.04,
+          "51": 0.96
+        },
+        "1rylsk": {
+          "50": 0.04,
+          "51": 0.96
+        },
+        "1belgorod district border": {
+          "50": 0.04,
+          "51": 0.96
+        }
+      },
+      "sampled": false
+    },
+    {
+      "id": 6,
+      "title": "> 5 Miles In Belgorod",
+      "x": 183,
+      "y": 333.33331298828125,
+      "values": [
+        "1",
+        "0"
+      ],
+      "tbl": {
+        "40": {
+          "60": 0.65,
+          "61": 0.35
+        },
+        "41": {
+          "60": 0.42,
+          "61": 0.58
+        }
+      },
+      "sampled": false
+    },
+    {
+      "id": 7,
+      "title": "> 5 Miles In Bryansk",
+      "x": 478,
+      "y": 261.33331298828125,
+      "values": [
+        "1",
+        "0"
+      ],
+      "tbl": {
+        "20": {
+          "70": 0.95,
+          "71": 0.05
+        },
+        "21": {
+          "70": 0.5,
+          "71": 0.5
+        }
+      },
+      "sampled": false
+    },
+    {
+      "id": 8,
+      "title": "Metaculus Questions",
+      "x": 360.4619140625,
+      "y": 431.22216796875,
+      "values": [
+        "kursk oblast only",
+        "kursk + 1",
+        "not kursk + 1",
+        "none"
+      ],
+      "tbl": {
+        "50": {
+          "60": {
+            "70": {
+              "8kursk oblast only": 0,
+              "8kursk + 1": 0,
+              "8not kursk + 1": 0,
+              "8none": 1
+            },
+            "71": {
+              "8kursk oblast only": 0,
+              "8kursk + 1": 0,
+              "8not kursk + 1": 1,
+              "8none": 0
+            }
+          },
+          "61": {
+            "70": {
+              "8kursk oblast only": 0,
+              "8kursk + 1": 0,
+              "8not kursk + 1": 1,
+              "8none": 0
+            },
+            "71": {
+              "8kursk oblast only": 0,
+              "8kursk + 1": 0,
+              "8not kursk + 1": 1,
+              "8none": 0
+            }
+          }
+        },
+        "51": {
+          "60": {
+            "70": {
+              "8kursk oblast only": 1,
+              "8kursk + 1": 0,
+              "8not kursk + 1": 0,
+              "8none": 0
+            },
+            "71": {
+              "8kursk oblast only": 0,
+              "8kursk + 1": 1,
+              "8not kursk + 1": 0,
+              "8none": 0
+            }
+          },
+          "61": {
+            "70": {
+              "8kursk oblast only": 0,
+              "8kursk + 1": 1,
+              "8not kursk + 1": 0,
+              "8none": 0
+            },
+            "71": {
+              "8kursk oblast only": 0,
+              "8kursk + 1": 1,
+              "8not kursk + 1": 0,
+              "8none": 0
+            }
+          }
+        }
+      },
+      "sampled": false
+    }
+  ],
+  "edges": [
+    {
+      "source": {
+        "id": 2,
+        "title": "Second Offensive In Bryansk",
+        "x": 443.1777648925781,
+        "y": 163.8380889892578,
+        "values": [
+          "1",
+          "0"
+        ],
+        "tbl": {
+          "50": {
+            "20": 0.99,
+            "21": 0.01
+          },
+          "51": {
+            "20": 0.95,
+            "21": 0.05
+          }
+        },
+        "sampled": false
+      },
+      "target": {
+        "id": 7,
+        "title": "> 5 Miles In Bryansk",
+        "x": 478,
+        "y": 261.33331298828125,
+        "values": [
+          "1",
+          "0"
+        ],
+        "tbl": {
+          "20": {
+            "70": 0.95,
+            "71": 0.05
+          },
+          "21": {
+            "70": 0.5,
+            "71": 0.5
+          }
+        },
+        "sampled": false
+      }
+    },
+    {
+      "source": {
+        "id": 1,
+        "title": "Ukrainian Main Direction Of Attack",
+        "x": 234,
+        "y": 127.33332824707031,
+        "values": [
+          "l'gov",
+          "rylsk",
+          "belgorod district border"
+        ],
+        "tbl": {
+          "1l'gov": 0.4,
+          "1rylsk": 0.3,
+          "1belgorod district border": 0.3
+        },
+        "sampled": false
+      },
+      "target": {
+        "id": 5,
+        "title": ">5 Miles In Kursk",
+        "x": 277.8872375488281,
+        "y": 203.58253479003906,
+        "values": [
+          "1",
+          "0"
+        ],
+        "tbl": {
+          "1l'gov": {
+            "50": 0.04,
+            "51": 0.96
+          },
+          "1rylsk": {
+            "50": 0.04,
+            "51": 0.96
+          },
+          "1belgorod district border": {
+            "50": 0.04,
+            "51": 0.96
+          }
+        },
+        "sampled": false
+      }
+    },
+    {
+      "source": {
+        "id": 1,
+        "title": "Ukrainian Main Direction Of Attack",
+        "x": 234,
+        "y": 127.33332824707031,
+        "values": [
+          "l'gov",
+          "rylsk",
+          "belgorod district border"
+        ],
+        "tbl": {
+          "1l'gov": 0.4,
+          "1rylsk": 0.3,
+          "1belgorod district border": 0.3
+        },
+        "sampled": false
+      },
+      "target": {
+        "id": 4,
+        "title": "Second Prong In Belgorod",
+        "x": 129,
+        "y": 231.33331298828125,
+        "values": [
+          "1",
+          "0"
+        ],
+        "tbl": {
+          "1l'gov": {
+            "40": 0.95,
+            "41": 0.05
+          },
+          "1rylsk": {
+            "40": 0.95,
+            "41": 0.05
+          },
+          "1belgorod district border": {
+            "40": 0.4,
+            "41": 0.6
+          }
+        },
+        "sampled": false
+      }
+    },
+    {
+      "source": {
+        "id": 4,
+        "title": "Second Prong In Belgorod",
+        "x": 129,
+        "y": 231.33331298828125,
+        "values": [
+          "1",
+          "0"
+        ],
+        "tbl": {
+          "1l'gov": {
+            "40": 0.95,
+            "41": 0.05
+          },
+          "1rylsk": {
+            "40": 0.95,
+            "41": 0.05
+          },
+          "1belgorod district border": {
+            "40": 0.4,
+            "41": 0.6
+          }
+        },
+        "sampled": false
+      },
+      "target": {
+        "id": 6,
+        "title": "> 5 Miles In Belgorod",
+        "x": 183,
+        "y": 333.33331298828125,
+        "values": [
+          "1",
+          "0"
+        ],
+        "tbl": {
+          "40": {
+            "60": 0.65,
+            "61": 0.35
+          },
+          "41": {
+            "60": 0.42,
+            "61": 0.58
+          }
+        },
+        "sampled": false
+      }
+    },
+    {
+      "source": {
+        "id": 6,
+        "title": "> 5 Miles In Belgorod",
+        "x": 183,
+        "y": 333.33331298828125,
+        "values": [
+          "1",
+          "0"
+        ],
+        "tbl": {
+          "40": {
+            "60": 0.65,
+            "61": 0.35
+          },
+          "41": {
+            "60": 0.42,
+            "61": 0.58
+          }
+        },
+        "sampled": false
+      },
+      "target": {
+        "id": 8,
+        "title": "Metaculus Questions",
+        "x": 360.4619140625,
+        "y": 431.22216796875,
+        "values": [
+          "kursk oblast only",
+          "kursk + 1",
+          "not kursk + 1",
+          "none"
+        ],
+        "tbl": {
+          "50": {
+            "60": {
+              "70": {
+                "8kursk oblast only": 0,
+                "8kursk + 1": 0,
+                "8not kursk + 1": 0,
+                "8none": 1
+              },
+              "71": {
+                "8kursk oblast only": 0,
+                "8kursk + 1": 0,
+                "8not kursk + 1": 1,
+                "8none": 0
+              }
+            },
+            "61": {
+              "70": {
+                "8kursk oblast only": 0,
+                "8kursk + 1": 0,
+                "8not kursk + 1": 1,
+                "8none": 0
+              },
+              "71": {
+                "8kursk oblast only": 0,
+                "8kursk + 1": 0,
+                "8not kursk + 1": 1,
+                "8none": 0
+              }
+            }
+          },
+          "51": {
+            "60": {
+              "70": {
+                "8kursk oblast only": 1,
+                "8kursk + 1": 0,
+                "8not kursk + 1": 0,
+                "8none": 0
+              },
+              "71": {
+                "8kursk oblast only": 0,
+                "8kursk + 1": 1,
+                "8not kursk + 1": 0,
+                "8none": 0
+              }
+            },
+            "61": {
+              "70": {
+                "8kursk oblast only": 0,
+                "8kursk + 1": 1,
+                "8not kursk + 1": 0,
+                "8none": 0
+              },
+              "71": {
+                "8kursk oblast only": 0,
+                "8kursk + 1": 1,
+                "8not kursk + 1": 0,
+                "8none": 0
+              }
+            }
+          }
+        },
+        "sampled": false
+      }
+    },
+    {
+      "source": {
+        "id": 5,
+        "title": ">5 Miles In Kursk",
+        "x": 277.8872375488281,
+        "y": 203.58253479003906,
+        "values": [
+          "1",
+          "0"
+        ],
+        "tbl": {
+          "1l'gov": {
+            "50": 0.04,
+            "51": 0.96
+          },
+          "1rylsk": {
+            "50": 0.04,
+            "51": 0.96
+          },
+          "1belgorod district border": {
+            "50": 0.04,
+            "51": 0.96
+          }
+        },
+        "sampled": false
+      },
+      "target": {
+        "id": 8,
+        "title": "Metaculus Questions",
+        "x": 360.4619140625,
+        "y": 431.22216796875,
+        "values": [
+          "kursk oblast only",
+          "kursk + 1",
+          "not kursk + 1",
+          "none"
+        ],
+        "tbl": {
+          "50": {
+            "60": {
+              "70": {
+                "8kursk oblast only": 0,
+                "8kursk + 1": 0,
+                "8not kursk + 1": 0,
+                "8none": 1
+              },
+              "71": {
+                "8kursk oblast only": 0,
+                "8kursk + 1": 0,
+                "8not kursk + 1": 1,
+                "8none": 0
+              }
+            },
+            "61": {
+              "70": {
+                "8kursk oblast only": 0,
+                "8kursk + 1": 0,
+                "8not kursk + 1": 1,
+                "8none": 0
+              },
+              "71": {
+                "8kursk oblast only": 0,
+                "8kursk + 1": 0,
+                "8not kursk + 1": 1,
+                "8none": 0
+              }
+            }
+          },
+          "51": {
+            "60": {
+              "70": {
+                "8kursk oblast only": 1,
+                "8kursk + 1": 0,
+                "8not kursk + 1": 0,
+                "8none": 0
+              },
+              "71": {
+                "8kursk oblast only": 0,
+                "8kursk + 1": 1,
+                "8not kursk + 1": 0,
+                "8none": 0
+              }
+            },
+            "61": {
+              "70": {
+                "8kursk oblast only": 0,
+                "8kursk + 1": 1,
+                "8not kursk + 1": 0,
+                "8none": 0
+              },
+              "71": {
+                "8kursk oblast only": 0,
+                "8kursk + 1": 1,
+                "8not kursk + 1": 0,
+                "8none": 0
+              }
+            }
+          }
+        },
+        "sampled": false
+      }
+    },
+    {
+      "source": {
+        "id": 7,
+        "title": "> 5 Miles In Bryansk",
+        "x": 478,
+        "y": 261.33331298828125,
+        "values": [
+          "1",
+          "0"
+        ],
+        "tbl": {
+          "20": {
+            "70": 0.95,
+            "71": 0.05
+          },
+          "21": {
+            "70": 0.5,
+            "71": 0.5
+          }
+        },
+        "sampled": false
+      },
+      "target": {
+        "id": 8,
+        "title": "Metaculus Questions",
+        "x": 360.4619140625,
+        "y": 431.22216796875,
+        "values": [
+          "kursk oblast only",
+          "kursk + 1",
+          "not kursk + 1",
+          "none"
+        ],
+        "tbl": {
+          "50": {
+            "60": {
+              "70": {
+                "8kursk oblast only": 0,
+                "8kursk + 1": 0,
+                "8not kursk + 1": 0,
+                "8none": 1
+              },
+              "71": {
+                "8kursk oblast only": 0,
+                "8kursk + 1": 0,
+                "8not kursk + 1": 1,
+                "8none": 0
+              }
+            },
+            "61": {
+              "70": {
+                "8kursk oblast only": 0,
+                "8kursk + 1": 0,
+                "8not kursk + 1": 1,
+                "8none": 0
+              },
+              "71": {
+                "8kursk oblast only": 0,
+                "8kursk + 1": 0,
+                "8not kursk + 1": 1,
+                "8none": 0
+              }
+            }
+          },
+          "51": {
+            "60": {
+              "70": {
+                "8kursk oblast only": 1,
+                "8kursk + 1": 0,
+                "8not kursk + 1": 0,
+                "8none": 0
+              },
+              "71": {
+                "8kursk oblast only": 0,
+                "8kursk + 1": 1,
+                "8not kursk + 1": 0,
+                "8none": 0
+              }
+            },
+            "61": {
+              "70": {
+                "8kursk oblast only": 0,
+                "8kursk + 1": 1,
+                "8not kursk + 1": 0,
+                "8none": 0
+              },
+              "71": {
+                "8kursk oblast only": 0,
+                "8kursk + 1": 1,
+                "8not kursk + 1": 0,
+                "8none": 0
+              }
+            }
+          }
+        },
+        "sampled": false
+      }
+    },
+    {
+      "source": {
+        "id": 5,
+        "title": ">5 Miles In Kursk",
+        "x": 277.8872375488281,
+        "y": 203.58253479003906,
+        "values": [
+          "1",
+          "0"
+        ],
+        "tbl": {
+          "1l'gov": {
+            "50": 0.04,
+            "51": 0.96
+          },
+          "1rylsk": {
+            "50": 0.04,
+            "51": 0.96
+          },
+          "1belgorod district border": {
+            "50": 0.04,
+            "51": 0.96
+          }
+        },
+        "sampled": false
+      },
+      "target": {
+        "id": 2,
+        "title": "Second Offensive In Bryansk",
+        "x": 443.1777648925781,
+        "y": 163.8380889892578,
+        "values": [
+          "1",
+          "0"
+        ],
+        "tbl": {
+          "50": {
+            "20": 0.99,
+            "21": 0.01
+          },
+          "51": {
+            "20": 0.95,
+            "21": 0.05
+          }
+        },
+        "sampled": false
+      }
+    }
+  ]
+}
